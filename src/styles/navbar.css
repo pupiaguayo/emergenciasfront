@@ -1,0 +1,21 @@
+.nav-edit {
+  background-color: #e28000;
+  margin: auto;
+}
+.nav-edit .logo {
+  height: 2em;
+}
+.container-links {
+  margin: auto;
+}
+.links {
+  margin: auto 3.125em;
+  font-size: 1.125em;
+  text-decoration: none;
+  color: #fafafa !important;
+}
+.links:hover {
+  font-size: 1.2em;
+  background-color: #0063af;
+  border-radius: 0.625em;
+}

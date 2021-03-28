@@ -1,0 +1,89 @@
+.tarjetaJobs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1em auto;
+  width: 18em;
+  height: 10em;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+  color: #e28000;
+}
+.tarjetaJobs:hover {
+  box-shadow: 3px 3px 10px 10px rgba(224, 224, 224, 0.2);
+  cursor: pointer;
+}
+.tarjetaJobs h2 {
+  font-size: 1.375em;
+  color: white;
+  margin: 1px auto;
+}
+.tarjetaJobs p {
+  font-size: 1em;
+  width: 100%;
+  color: #e28000;
+}
+.tarjetaJobs input {
+  background-color: #0063af;
+  color: #ff9100;
+  border: 1px solid #fafafa;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.tarjetaJobs input:hover {
+  background-color: #fafafa;
+  color: #0063af;
+  border: 1px solid #0063af;
+}
+.formularioAplicar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.edit-modal {
+  margin: 6.25em auto;
+}
+.body-modal {
+  color: #fafafa;
+  background-color: #df7e00;
+  text-align: center;
+}
+.formularioAplicar input {
+  width: 100%;
+  border: 1px solid #fafafa;
+  border-radius: 8px;
+}
+.cancelar-aplicar {
+  margin-top: 0.9375em;
+}
+.cancelar-aplicar input {
+  margin: auto 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+.cancelar-aplicar .button-aplicar {
+  background-color: #0063af;
+  color: white;
+}
+.cancelar-aplicar .button-cancelar {
+  background-color: #af0000;
+  color: white;
+  opacity: 0.5;
+}
+.cancelar-aplicar .button-cancelar:hover {
+  opacity: 1;
+}
+@media (max-width: 995px) {
+  .tarjetas {
+    width: 23em;
+  }
+  body {
+    font-size: 14px;
+  }
+}

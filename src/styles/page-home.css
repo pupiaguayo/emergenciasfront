@@ -1,0 +1,12 @@
+h1 {
+  font-size: 2.5em;
+  margin-top: 1.2em;
+  color: #fafafa;
+}
+.container-cards {
+  margin: 3.75em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.footer {
+  height: 2em;
+}
+.footer button {
+  background-color: #ff9100;
+  color: #fafaff;
+  border: 1px solid #0063af;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.footer button:hover {
+  font-size: 18px;
+}

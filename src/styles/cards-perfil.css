@@ -1,0 +1,44 @@
+.tarjetaPerfil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1em auto;
+  width: 18em;
+  height: 30em;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+  color: #e28000;
+}
+.tarjetaPerfil:hover {
+  box-shadow: 3px 3px 10px 10px rgba(224, 224, 224, 0.2);
+  cursor: pointer;
+}
+.tarjetaPerfil h2 {
+  font-size: 1.375em;
+  color: white;
+  margin: 1px auto;
+}
+.tarjetaPerfil p {
+  font-size: 1em;
+  width: 100%;
+  color: #e28000;
+}
+.tarjetaPerfil input {
+  background-color: #0063af;
+  color: #ff9100;
+  border: 1px solid #fafafa;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.tarjetaPerfil input:hover {
+  background-color: #fafafa;
+  color: #0063af;
+  border: 1px solid #0063af;
+}
+
+.formularioPerfil input {
+  width: 100%;
+}
